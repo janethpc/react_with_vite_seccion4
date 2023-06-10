@@ -8,6 +8,6 @@ import './styles.css'
 ReactDom.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         { /*<FirstApp title="este es la prueba del titulo" subTitle={123}/> */}
-    <CounterApp value={1}/>
+    <CounterApp value={ 1 }/>
     </React.StrictMode>
 )
